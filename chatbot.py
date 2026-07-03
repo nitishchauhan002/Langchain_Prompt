@@ -40,7 +40,7 @@ while True:
     print("AI:", result.content)
     print()
 
-# Print Complete Chat History
+# Print  Chat History
 print("\n========== Chat History ==========\n")
 
 for message in chat_history:
