@@ -3,7 +3,6 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import load_prompt
 
-# Load Environment Variables
 load_dotenv()
 
 # Gemini Model
@@ -46,7 +45,6 @@ length_input = st.selectbox(
     ]
 )
 
-# Load Prompt Template
 template = load_prompt("template.json")
 
 if st.button("Summarize"):
