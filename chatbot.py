@@ -4,7 +4,6 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 load_dotenv()
 
-# Gemini Model
 model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7
