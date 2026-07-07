@@ -19,7 +19,7 @@ Explanation Length: {length_input}
 If certain information is not available in the paper, respond with:
 "Insufficient information available"
 
-instead of guessing.
+instead of the  guessing.
 
 Ensure the summary is clear, accurate, and aligned with the provided style and length.
 """,
