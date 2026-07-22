@@ -8,7 +8,6 @@ model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7
 )
-
 # Chat History
 chat_history = [
     SystemMessage(content="You are a helpful AI assistant.")
